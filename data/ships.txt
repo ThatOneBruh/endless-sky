@@ -160,28 +160,28 @@ ship "Arrow"
 
 
 
-ship "Bactrian"
+"ship "Bactrian"
 	sprite "ship/bactrian"
 	attributes
 		category "Heavy Warship"
-		"cost" 12600000
-		"shields" 17500
-		"hull" 8600
-		"required crew" 70
-		"bunks" 245
+		"cost" 1260000000
+		"shields" 17500000
+		"hull" 86000000
+		"required crew" 7
+		"bunks" 2450
 		"mass" 940
-		"drag" 16.1
-		"heat dissipation" .4
-		"fuel capacity" 700
-		"cargo space" 530
-		"outfit space" 740
-		"weapon capacity" 330
-		"engine capacity" 180
+		"drag" 5
+		"heat dissipation" 100
+		"fuel capacity" 150000
+		"cargo space" 50000
+		"outfit space" 740000
+		"weapon capacity" 330000
+		"engine capacity" 180000
 		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
+			"blast radius" 1
+			"shield damage" 200
+			"hull damage" 100
+			"hit force" 300
 	outfits
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 100
@@ -205,11 +205,13 @@ ship "Bactrian"
 	gun 15 -226 "Torpedo Launcher"
 	gun -40 -133 "Sidewinder Missile Launcher"
 	gun -45 -128 "Sidewinder Missile Launcher"
-	turret -22 -148 "Heavy Laser Turret"
+	turret -22 -148 "Heavy Anti-Missile Turret"
+	turret -21 -148 "Heavy Anti-Missile Turret"
+	turret -23 -148 "Heavy Anti-Missile Turret"
 	turret 26 -80 "Heavy Anti-Missile Turret"
-	turret -41 -20 "Heavy Laser Turret"
-	turret 32 -7 "Heavy Laser Turret"
-	turret 53 82 "Heavy Laser Turret"
+	turret -41 -20 "Heavy Anti-Missile Turret"
+	turret 32 -7 "Heavy Anti-Missile Turret"
+	turret 53 82 "Heavy Anti-Missile Turret"
 	turret -37 186 "Heavy Anti-Missile Turret"
 	fighter -38 -26
 	fighter 35 36
@@ -218,7 +220,7 @@ ship "Bactrian"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
-	description "The Lionheart Bactrian is the last of the great city-ships, a design hearkening back to the early days of space colonization when a long-distance vessel needed to be a self-contained world, able to survive at times for weeks without encountering an inhabited planet. It is not only a freighter, but a carrier, and a capable warship either at short range or at a distance. Naturally, this versatility also makes it extremely expensive, and the Bactrian is not normally for sale to ordinary citizens who have not been vetted by the local government of the Deep."
+	description "The Lionheart Bactrian is the last of the great city-ships, a design hearkening back to the early days of space colonization when a long-distance vessel needed to be a self-contained world, able to survive at times for weeks without encountering an inhabited planet. It is not only a freighter, but a carrier, and a capable warship either at short range or at a distance. Naturally, this versatility also makes it extremely expensive, and the Bactrian is not normally for sale to ordinary citizens who have not been vetted by the local government of the Deep.
 
 
 
@@ -828,19 +830,19 @@ ship "Dreadnought"
 	sprite "ship/dreadnought"
 	attributes
 		category "Heavy Warship"
-		"cost" 11900000
-		"shields" 18100
-		"hull" 7300
-		"required crew" 84
-		"bunks" 147
-		"mass" 630
-		"drag" 10.1
-		"heat dissipation" .65
-		"fuel capacity" 600
-		"cargo space" 100
-		"outfit space" 790
-		"weapon capacity" 360
-		"engine capacity" 190
+		"cost" 1260000000
+		"shields" 17500000
+		"hull" 86000000
+		"required crew" 7
+		"bunks" 2450
+		"mass" 940
+		"drag" 5
+		"heat dissipation" 100
+		"fuel capacity" 150000
+		"cargo space" 50000
+		"outfit space" 740000
+		"weapon capacity" 330000
+		"engine capacity" 180000
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
